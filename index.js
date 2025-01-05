@@ -18,7 +18,7 @@ function show(college){
         list.appendChild(li);
         return;
     }
-    for(col of college){
+    for(let col of college){
         console.log(col.name);
         let li=document.createElement("li");
         li.innerText=col.name;
